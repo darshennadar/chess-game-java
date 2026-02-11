@@ -12,7 +12,7 @@ package com.mycompany.chessgame;
 import javax.swing.JLabel;
 import javax.swing.ImageIcon;
 
-public class ChessPieces {
+public class ChessPieces { //Consider Inheriting from Swing Library
     
     private String pieceType;
     private JLabel pieceLabel;
@@ -31,3 +31,4 @@ public class ChessPieces {
         return pieceLabel;
     }
 }
+
